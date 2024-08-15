@@ -1,3 +1,3 @@
-# Prog3-TUP
+# Prog3-Lab3-TUP
 
-### Repositorio para Prog3 de la Tecnicatura Universitaria en Programación con el Profesor Chiroli
+### Repositorio para Prog3 y Lab3 de la Tecnicatura Universitaria en Programación con el Profesor Chiroli
