@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+body{
+    background: #f2f2f2;
+    font-size: 1rem;
+}
+.header{
+    background: #444444;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.content{
+    background: white;
+    border-radius: 10px;
+    width: 96%;
+    margin: 10px auto;
+    min-height: 200px;
+    padding: 10px 10px;
+    min-width: 358px;
+    max-width: 1000px;
+    position: relative;
+}
+.content__paragraph{
+   font-size: 20px;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+
+}
+
+.subparagraph{
+    color: rgb(71, 71, 71);
+    margin-top: 10px;
+    font-size: 18px;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: left;
+}
+
+.content blockquote{
+    display: flex;
+    background-color: #f4f1f1;
+    border-left: 5px gray solid;
+    padding-left: 5px;
+    color: gray;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 10px;
+    height: 40px;
+    align-items: center;
+    font-weight: bold;
+}
+
+.box{
+    width: 97%;
+    font-size: 16px;
+    background-color: #8cc7e7;
+    padding: 4px;
+    border-radius: 3px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    border: 1px solid black;
+    box-shadow: 2px 2px 2px #686868;
+  
+}
+
+.special{
+    background-color: #ffe1b5;
+    border: 2px solid black;
+    color: #4d5253;
+}
+
+.relative{
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    background-color: #e0f7fa;
+}
+
+.absolute{
+    border-radius: 3px;
+    border: none;
+    box-shadow: none;
+    color: white;
+    background-color: #2e9798;
+    position: absolute;
+    top:90px;
+    right: 10px;
+    width: 80%;
+
+}
+
+@media(width < 768px ){
+    body{
+        background-color: #d1c3e7;
+    }
+    .box{
+        font-size: 14px;
+    }
+    .subparagraph{
+        font-size: 14px;
+    }
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.grid-item{
+    background-color: #8c9afc;
+    border-radius: 8px;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+    color: white;
+}
+.move{
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    animation: move 4s infinite;
+    position: relative;
+}
+@keyframes move{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: 300px;
+    }
+    100%{
+        left: 0;
+    }
+
+}
+
+.animation{
+    width: 100px;
+    height: 100px;
+    background-color: #007f15;
+    position: relative;
+    margin-top: 10px;
+    border-radius: 50%;
+    transition: 400ms;
+}
+
+.animation:hover{
+    background-color: violet;
+    scale: 0.8;
+}
