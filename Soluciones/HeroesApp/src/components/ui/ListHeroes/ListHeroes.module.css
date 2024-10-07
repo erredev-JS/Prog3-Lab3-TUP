@@ -1,0 +1,29 @@
+.containerPrincipalList{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.containerTitle{
+    width: 100%;
+    background:blueviolet;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: .4rem;
+}
+
+.containerList{
+    display: grid;
+    margin: 2rem;
+    width: 80%;
+    padding: 0.4rem;
+    grid-template-columns: repeat(4,1fr);
+    gap: 2vh;
+    max-height: 80vh;
+    overflow-y: auto ;
+}

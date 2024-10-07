@@ -1,0 +1,23 @@
+.containerLogin{
+    width: 100vw;
+    height: 100vh;
+    font-weight: bold;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerForm{
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(0, 13%, 24%);
+    width: 40%;
+    height: 60%;
+    color: white;
+    border-radius: 12px;
+    padding: 20px;
+}
